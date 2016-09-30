@@ -6,6 +6,6 @@
     aria-pressed="${"true" if is_bookmarked else "false"}"
     data-bookmark-id="${bookmark_id}">
      <span class="sr bookmark-sr">${_("Click to remove") if is_bookmarked else _("Click to add")}</span>
-     ${_("Bookmarked") if is_bookmarked else _("Bookmark Page")}
+     <span class="bookmark-text">${_("Bookmarked") if is_bookmarked else _("Bookmark This Page")}</span>
     </button>
 </div>
